@@ -1,0 +1,7 @@
+# Product
+bluetooth.device.default_name=Redmi Note 12T Pro
+vendor.usb.product_string=Redmi Note 12T Pro
+ro.product.odm.brand=Redmi
+ro.product.odm.device=pearl
+ro.product.odm.model=23054RA19C
+ro.product.odm.name=pearl

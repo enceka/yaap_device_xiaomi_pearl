@@ -258,6 +258,9 @@ PRODUCT_PACKAGES += \
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/pearl_build.prop:$(TARGET_COPY_OUT_ODM)/etc/pearl_build.prop
+
 # Radio
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/rsc,$(TARGET_COPY_OUT_VENDOR)/etc/rsc)
