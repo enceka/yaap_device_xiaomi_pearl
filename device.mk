@@ -19,6 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera-pearl/device.mk)
 
+# Call the addons setup
+$(call inherit-product-if-exists, vendor/addons/config.mk)
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
